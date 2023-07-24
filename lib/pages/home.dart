@@ -37,14 +37,6 @@ class _HomePageState extends State<HomePage> {
                     labelText: 'Peso',
                   ),
                 ),
-                const SizedBox(height: 10),
-                TextFormField(
-                  controller: _alturaController,
-                  keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(
-                    labelText: 'Altura',
-                  ),
-                ),
                 const SizedBox(height: 20),
                 SizedBox(
                   width: double.infinity,

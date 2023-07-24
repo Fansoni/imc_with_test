@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:imc/pages/home.dart';
+import 'package:imc/pages/signup.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Calculadora de IMC',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SignUpPage(),
     );
   }
 }
